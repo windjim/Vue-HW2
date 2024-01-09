@@ -20,7 +20,7 @@ createApp({
           document.cookie = `VueHW2Token=${token}; expires=${new Date(
             expired
           )}`;
-          window.location.href = "product.html";
+          window.location.href = "index.html";
         })
         .catch((err) => {
           alert(`${err.data.message}，請重新登入`);
